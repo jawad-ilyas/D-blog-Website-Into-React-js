@@ -6,7 +6,7 @@ function CategoryCard({ bg = "", label = "Leveling Up in CSS", buttonText = "cat
 
     return (
         <div className="bg-white border p-2 flex-1">
-            <div div className="relative p-4 bg-[url(${bg})] w-full h-72 flex flex-col justify-between items-start group" style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+            <div div className="relative p-4 bg-[url(${bg})] w-full h-80 flex flex-col justify-between items-start group" style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
                 <div>
                     <h1 className="mb-2 text-white font-medium">{label}</h1>

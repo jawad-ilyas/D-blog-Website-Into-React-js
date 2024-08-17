@@ -6,4 +6,7 @@ import RoundedButtonHover from "./roundedButtonHover/RoundedButtonHover";
 import Pagination from "./pagination/Pagination";
 import SquareButton from "./squareButton/SquareButton";
 import ProfileCard from "./profileCard/ProfileCard";
-export { Container, RoundedButton, CategoryCard, PostCard, RoundedButtonHover, Pagination, SquareButton, ProfileCard }
+import CategoryListCard from "./categoryListCard/CategoryListCard";
+import LastProjectCard from "./lastProjectCard/LastProjectCard";
+import RoundedButtonHoverLink from "./roundedButtonHoverLink/RoundedButtonHoverLink";
+export { Container, RoundedButton, CategoryCard, PostCard, RoundedButtonHover, Pagination, SquareButton, ProfileCard, CategoryListCard, LastProjectCard, RoundedButtonHoverLink }
