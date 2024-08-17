@@ -1,7 +1,7 @@
 import React from 'react'
 import { CategoryCard, CategoryListCard, Container, LastProjectCard, Pagination, PostCard, ProfileCard, RoundedButtonHover } from './Components'
 import Category1 from "./assets/category1.webp"
-import Category2 from "./assets/category2.webp"
+import Category1 from "./assets/category1.webp"
 import Category3 from "./assets/category3.webp"
 import Category4 from "./assets/category4.webp"
 import Category5 from "./assets/category5.webp"
