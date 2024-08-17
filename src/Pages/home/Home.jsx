@@ -52,7 +52,7 @@ function Home() {
                         <div className='px-8 py-6 bg-LightBg/50'>
                             <h1 className='text-xl text-Gray'>Tags</h1>
                         </div>
-                        <div className='px-8 py-4 mt-4 space-x-4 space-y-2'>
+                        <div className='px-8 py-4 mt-4  flex flex-row flex-wrap'>
                             <RoundedButtonHover label="html" textColor="Gray" />
                             <RoundedButtonHover label="css" textColor="Gray" />
                             <RoundedButtonHover label="javscript" textColor="Gray" />
