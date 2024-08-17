@@ -80,7 +80,7 @@ function Header() {
                 <div ><IoIosMenu className={`${mobileMenuOpen ? "text-red-400" : "text-black"}`} size={35} onClick={() => { setMobileMenuOpen(true) }} /></div>
             </div>
             <div
-                className={`bg-white p-8 shadow-lg md:hidden transition-all duration-300 delay-300    w-full h-screen absolute right-0 top-20 z-[10000000]  "
+                className={`bg-white p-8 shadow-lg md:hidden transition-all duration-300 delay-300    w-full h-screen absolute right-0 top-0 z-[10000000]  "
                    ${mobileMenuOpen === true ? "translate-x-0" : "-translate-x-full"} }`}
             >
 
@@ -103,7 +103,7 @@ function Header() {
 
                                 </div>
                             </div>
-                            <div className="text-Gray mt-2 flex flex-row  items-center">Modern Javascript book is available! <strong className="flex  items-center cursor-pointer ms-2  text-Gray text-sm">Check out <IoIosArrowBack className="rotate-180" /></strong></div>
+                            <div className="text-Gray mt-2 flex flex-col  justify-center items-start">Modern Javascript book is available! <strong className="flex  items-center cursor-pointer lg:ms-2  text-Gray text-sm">Check out <IoIosArrowBack className="rotate-180" /></strong></div>
 
                         </div>
                         {/* main menu */}
