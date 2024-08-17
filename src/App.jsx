@@ -1,10 +1,10 @@
 import React from 'react'
 import { CategoryCard, CategoryListCard, Container, LastProjectCard, Pagination, PostCard, ProfileCard, RoundedButtonHover } from './Components'
 import Category1 from "./assets/category1.webp"
-import Category2 from "./assets/category1.webp"
-import Category3 from "./assets/category3.webp"
-import Category4 from "./assets/category4.webp"
-import Category5 from "./assets/category5.webp"
+import Category2 from "./assets/Category2.webp"
+import Category3 from "./assets/Category3.webp"
+import Category4 from "./assets/Category4.webp"
+import Category5 from "./assets/Category5.webp"
 function App() {
   return (
     <Container >
