@@ -24,7 +24,7 @@ function PostCard({ bgColor, timeDuration, blogTitle, blogParagrahp, categoryCol
                     </h1>
                     <p className='text-Gray text-sm lg:text-base  '>{blogParagrahp}</p>
                 </div>
-                <div className='flex flex-col-reverse   w-full lg:justify-between lg:items-center'>
+                <div className='flex flex-col-revers lg:flex-row   w-full lg:justify-between lg:items-center'>
                     <RoundedButtonHover label="Read More" borderWidth="1" textColor="Gray" borderColor="LightRed" paddingX="px-6" paddingY="py-2 pb-2" />
                     <div className='flex flex-row justify-between mt-2  items-center space-x-4'>
                         <div className='space-x-2 text-Gray text-xl flex flex-row group  items-center '>
